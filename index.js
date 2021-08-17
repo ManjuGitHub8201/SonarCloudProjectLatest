@@ -8,6 +8,7 @@ db.serialize(() => {
   buildSchemas(db);
 
   const app = require('./src/app')(db);
+  Test
 
   app.listen(port, () => console.log(`App started and listening on port ${port}`));
 });
