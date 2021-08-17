@@ -22,7 +22,7 @@ module.exports = (db) => {
   app.get('/health', (req, res) => res.send('Healthy'));
 
   /**
-   * Create a Ride.
+   * Create a Ride. Ride
    * @param {Object} req.body - Request body object
    * @param {number} req.body.start_lat - Pickup location latitude of the rider
    * @param {number} req.body.start_long - Pickup location longitude of the rider
